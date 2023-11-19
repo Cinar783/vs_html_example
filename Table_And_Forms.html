@@ -1,0 +1,83 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Forms</title>
+</head>
+<body>
+    <!--Table Head-->
+    <table border=1>
+        <thead>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Departmen</th>
+            <th>Age</th>
+        </thead>
+    <!--Table Row-->
+    <tr>
+        <td>James Hetfield</td>
+        <td>100</td>
+        <td>Musician</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Lars Ulrich</td>
+        <td>200</td>
+        <td>Musician</td>
+        <td>66</td>
+    </tr>
+    </table>
+
+    <br><br><br>
+
+    <form action="images.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary">
+        <br>
+        <input type="submit">
+    </form>
+
+    <form action="html_example.html">
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="e-mail" name="E-Mail" placeholder="Enter your e-mail">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="Password" placeholder="Enter your password">
+        <br>
+        <input type="submit" value="Login">
+    </form>
+    <br><br>
+
+    <form action="div_example.html">
+        <p>Star Wars vs. Star Trek? </p>
+        
+        <label for="Starwars">Starwars:</label>
+        <input type="radio" id="Starwars" name="movie" value="starwars">
+        <br>
+        <label for="startrek">Star Trek:</label>
+        <input type="radio" id="startrek" name="movie" value="startrek">
+        <br>
+        <input type="submit" value="Login">
+    </form>
+
+    <br><br>
+
+    <form action="html_example.html">
+        <select name="rating" id="rating2">
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+        <br>
+        <input type="submit"value="chose">
+    </form>
+
+
+
+</body>
+</html>
